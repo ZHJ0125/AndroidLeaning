@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_marginLeft="4px"
+        android:text="0"
+        android:textSize="50dip" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="清除"
+        android:textSize="26sp" />
+    <Button android:text="1" android:textSize="40sp"/>
+    <Button android:text="2" android:textSize="40sp"/>
+    <Button android:text="3" android:textSize="40sp"/>
+    <Button android:text="+" android:textSize="40sp"/>
+    <Button android:text="4" android:textSize="40sp"/>
+    <Button android:text="5" android:textSize="40sp"/>
+    <Button android:text="6" android:textSize="40sp"/>
+    <Button android:text="-" android:textSize="40sp"/>
+    <Button android:text="7" android:textSize="40sp"/>
+    <Button android:text="8" android:textSize="40sp"/>
+    <Button android:text="9" android:textSize="40sp"/>
+    <Button android:text="*" android:textSize="40sp"/>
+    <Button android:text="/" android:textSize="40sp"/>
+    <Button android:text="0" android:textSize="40sp"/>
+    <Button android:text="=" android:textSize="40sp"/>
+    <Button android:text="." android:textSize="40sp"/>
+    <TextView
+        android:text="@string/zhj"
+        android:textSize="24dp"/>
+    <TextView
+        android:text="@string/num"
+        android:textSize="12dp"/>
+
+</GridLayout>

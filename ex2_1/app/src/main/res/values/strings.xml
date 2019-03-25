@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name">ex2_1</string>
+    //添加属性为"hello"的元素项
+    <string name="hello">
+        \n      山东科技大学
+        \n      泰山科技学院
+        \n       信息工程系
+        \n    电子信息科学与技术
+    </string>
+    <string name="zhj">张厚今 201723010237</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ex2_2</string>
+    <string name="text1">"Hello World! This is the interface of ex2_2."</string>
+    <string name="text2">你好，世界！这是ex2_2的界面</string>
+    <string name="button1">翻译</string>
+    <string name="zhj">张厚今 201723010237</string>
+    <string name="chn">中文</string>
+</resources>

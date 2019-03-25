@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ex2_12</string>
+    <string name="hello">请输入您的姓名</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="zhj">张厚今 201723010237</string>
+</resources>

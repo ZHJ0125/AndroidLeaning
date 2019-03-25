@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/boy01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boy" />
+
+        <RadioButton
+            android:id="@+id/girl01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/girl" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/zhj"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

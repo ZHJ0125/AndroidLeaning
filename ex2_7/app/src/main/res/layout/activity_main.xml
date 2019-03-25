@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow>
+        <ImageView
+            android:id="@+id/mImage2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img2" />
+        <ImageView
+            android:id="@+id/mImage1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/mText1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/mImage3"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:src="@drawable/img3"/>
+        <ImageView
+            android:id="@+id/mImage4"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:src="@drawable/img4"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/mText2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/mText3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/mText4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/mImage5"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:src="@drawable/img5"/>
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/zhj"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</TableLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ex2_11</string>
+    <string name="hello">你掌握了哪些编程语言？</string>
+    <string name="one">Python</string>
+    <string name="two">Java</string>
+    <string name="three">C语言</string>
+    <string name="btn">获取选项值</string>
+    <string name="zhj">张厚今 201723010237</string>
+</resources>
