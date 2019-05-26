@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/mImage"
+        android:layout_width="242dp"
+        android:layout_height="277dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:text="帧布局(FrameLayout)是将组件放置到左上角的位置。当添加多个组件时，后面的组件(TextView)将覆盖前面的组件(ImageView)"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/zhj"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</FrameLayout>
