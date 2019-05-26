@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>JavaScript与Android交互</title>
+</head>
+<script type="text/javascript">
+    function show_alert(){
+        var a = document.getElementById("text").value;
+        alert("Hello " + a);
+        }
+</script>
+<body>
+<form action="">
+    <input type="text" id="text" value=""/>
+    <input type="button" id="button" onclick="window.test.android_show()" value="call Android"/>
+</form>
+</body>
+</html>
